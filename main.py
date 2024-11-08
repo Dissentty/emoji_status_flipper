@@ -29,8 +29,7 @@ async def set_status(client, status_id):
         print("Error updating status:", e)
 
 async def start_swapping():
-    async with TelegramClient('anon', api_id, api_hash) as client:
-        await client.start()
+    async with TelegramClient('session', api_id, api_hash) as client:
         while True:
             random_index = randint(0, len(statuses) - 1)
             print("Setting status to index:", random_index)
