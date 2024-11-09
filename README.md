@@ -1,5 +1,5 @@
-# emotus flipper by dissenty
-**emotus flipper** - небольшая программа для постоянного изменения эмодзи статуса в Telegram.
+# emoji status flipper by dissenty
+**emoji status flipper** - небольшая программа для постоянного изменения эмодзи статуса в Telegram.
 
 ### Запуск программы
 
